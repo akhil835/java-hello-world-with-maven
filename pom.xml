@@ -12,21 +12,9 @@
            <java.version>1.8</java.version>
            <maven.compiler.source>1.8</maven.compiler.source>
            <maven.compiler.target>1.8</maven.compiler.target>
-     
-          <!-- Optional URL to server. Default value is http://localhost:9000 -->
-          <sonar.host.url>
-          http://13.201.127.131:9000/
-          </sonar.host.url>
-              <sonar.login>squ_663559bb851aaa96befae101ad8855def45fef1f</sonar.login>
-
      </properties>
 
       <dependencies>
-            <dependency>
- <groupId>org.sonarsource.scanner.maven</groupId>
- <artifactId>sonar-maven-plugin</artifactId>
- <version>3.9.0.2155</version>
-</dependency>
            <dependency>
                <groupId>joda-time</groupId>
                <artifactId>joda-time</artifactId>
